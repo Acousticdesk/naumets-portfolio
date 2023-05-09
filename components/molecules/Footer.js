@@ -10,18 +10,24 @@ export const Footer = () => (
     <Content>
       <Flex align="stretch" justify="start" gap>
         <Box>
-          <CopyToClipboardButton value="hello@aaronporter.co" variant="ghost">
-            hello@aaronporter.co
+          <CopyToClipboardButton
+            value="anastasiia.naumets@gmail.com"
+            variant="ghost"
+          >
+            anastasiia.naumets@gmail.com
           </CopyToClipboardButton>
         </Box>
         <Box>
-          <Button variant="ghost" href="https://twitter.com/Aaron_porter">
-            Twitter
+          <Button variant="ghost" href="https://medium.com/@anastasiia.naumets">
+            Medium
           </Button>
         </Box>
 
         <Box>
-          <Button variant="ghost" href="https://www.linkedin.com/in/aaporter/">
+          <Button
+            variant="ghost"
+            href="https://www.linkedin.com/in/anastasiia-naumets-user-experience-designer/"
+          >
             LinkedIn
           </Button>
         </Box>

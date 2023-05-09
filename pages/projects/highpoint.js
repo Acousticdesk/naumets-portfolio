@@ -31,6 +31,8 @@ import image11 from "../../public/projects/highpoint/optimization.jpg";
 import image12 from "../../public/projects/highpoint/optimization_2.jpg";
 import image13 from "../../public/projects/highpoint/optimization_3.jpg";
 import image14 from "../../public/projects/highpoint/optimization_4.jpg";
+import image15 from "../../public/projects/highpoint/dogs.jpg";
+import image16 from "../../public/projects/highpoint/kisas.jpg";
 
 export default function Carefull() {
   return (
@@ -501,149 +503,214 @@ export default function Carefull() {
           caption="Designed smart alert system to make sure students and staff are constantly updated about changes and have easy access to important information."
         />
       </Box>
-      {/* unique content ends here */}
+      <CopyContainer>
+        <ProjectHighlight label="testing">
+          <List>
+            <List.Item
+              title="De-risking new flow"
+              text={
+                <>
+                  <Text>
+                    One of HP’s long-time partner agreed to test new design with
+                    their staff and students, so we leveraged this opportunity
+                    and validated new designs.
+                  </Text>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    As we continuously maintain a component-based design
+                    library, it took me only few days to create high-fidelity
+                    prototypes and get them ready for testing.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </ProjectHighlight>
+      </CopyContainer>
+      {/*<ProjectHighlight>*/}
+      {/*  <Carousel>*/}
+      {/*    <TextCard*/}
+      {/*      text="Conducted 1:1 qualitative research sessions with financial caregivers to create a ground truth by which to guide product decisions."*/}
+      {/*      iconName="Chat"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Aided our head of growth in the formulation of quantitative studies to better understand our market and larger customer trends."*/}
+      {/*      iconName="PieChart"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Built foundational artifacts to give our team insight into the experiences, responsibilities, and needs of our customers."*/}
+      {/*      iconName="Notebook"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Conducted synchronous & asynchronous usability tests on our interface touchpoints."*/}
+      {/*      iconName="CircleWavyCheck"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Met with users to understand how our product fit into their life & guide iterations of our offering."*/}
+      {/*      iconName="Smiley"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Ran workshops with our founding team to shape our company & product thinking."*/}
+      {/*      iconName="StickyNote"*/}
+      {/*    />*/}
+      {/*  </Carousel>*/}
+      {/*</ProjectHighlight>*/}
       <ProjectHighlight>
         <Carousel>
-          <TextCard
-            text="Conducted 1:1 qualitative research sessions with financial caregivers to create a ground truth by which to guide product decisions."
-            iconName="Chat"
-          />
-          <TextCard
-            text="Aided our head of growth in the formulation of quantitative studies to better understand our market and larger customer trends."
-            iconName="PieChart"
-          />
-          <TextCard
-            text="Built foundational artifacts to give our team insight into the experiences, responsibilities, and needs of our customers."
-            iconName="Notebook"
-          />
-          <TextCard
-            text="Conducted synchronous & asynchronous usability tests on our interface touchpoints."
-            iconName="CircleWavyCheck"
-          />
-          <TextCard
-            text="Met with users to understand how our product fit into their life & guide iterations of our offering."
-            iconName="Smiley"
-          />
-          <TextCard
-            text="Ran workshops with our founding team to shape our company & product thinking."
-            iconName="StickyNote"
-          />
-        </Carousel>
-      </ProjectHighlight>
-      <ProjectHighlight
-        heading={
-          <>
-            I crafted a brand that communicates trust, understanding, and a
-            focus on generational bonds.
-          </>
-        }
-      >
-        <Carousel>
-          <AssetCard
-            columns={1}
-            caption="Our wordmark needed to feel mature & institutional, like a bank, while retaining a sense of approachability and warmth."
-            image={image2}
-            imageAlt="Highpoint"
-          />
+          <AssetCard columns={1} image={image15} imageAlt="Highpoint" />
 
           <AssetCard
             columns={1}
-            caption="Our symbol conveys the idea of independent parts of a family coming together to create a larger whole."
-            image={image3}
+            image={image16}
             imageAlt="An icon that contains 8 dots arranged in a circle on a purple background."
           />
           <AssetCard
             columns={2}
-            caption={
-              <>
-                Inspired by the feeling of sorting through the family photo
-                album, we utilized a mixture of modern & archival photos to
-                create a visual motif that evokes ideas of family, generations,
-                and the things that connect them.
-              </>
-            }
-            image={image4}
+            image={image16}
             imageAlt="An image of a modern mother with a baby and a retro family portrait. Connected with a line to show a family bond.  "
           />
-          <AssetCard
-            columns={1}
-            caption="Built supporting material to extend our brand off the screen."
-            image={image5}
-            imageAlt="A stack of print material"
-          />
-          <AssetCard
-            columns={1}
-            caption="Helped guide the creation of educational content."
-            image={image6}
-            imageAlt="A book with the title 'The Financial Caregiving Roadmap'"
-          />
-          <AssetCard caption="Designed & built all aspects of our website. I assembled templates & styles in Webflow to enable our marketing team to independently test & evolve our communication efforts over time.">
-            <video
-              autoPlay="autoplay"
-              loop="loop"
-              muted
-              playsInline="playsinline"
-              controls={false}
-              style={{ width: "100%", pointerEvents: "none" }}
-            >
-              <source
-                src="/projects/carefull/Carefull_Website_Home.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </AssetCard>
         </Carousel>
       </ProjectHighlight>
-      <ProjectHighlight
-        heading={
-          <>
-            Designed every experience touchpoint across the service in lock-step
-            with engineering, business, & growth.
-          </>
-        }
-      >
-        <Carousel>
-          <TextCard
-            text="Uncovered user journeys, mapped flows, built wireframes, and constructed prototypes to shape our product."
-            iconName="TreeStructure"
-          />
-          <TextCard
-            text="Used quantitative & qualitative data from our customers to iterate and ship constant UX improvements."
-            iconName="ArrowsClockwise"
-          />
-          <AssetCard
-            columns={2}
-            caption="Designed every screen & state of the Carefull App. An experience that gives children increased insight into the financial life of their parent."
-            imageAlt="Multiple images of an app experience"
-            image={image7}
-          />
-          <AssetCard
-            columns={1}
-            caption="Users receive timely alerts so that they can worry less and insure things are going smoothly."
-            imageAlt="An iphone lockscreen with an alert that says 'Mom's bill State Famr for $89.87 is due tomorrow. You pay via autopay.'"
-            image={image8}
-          />
-          <AssetCard
-            columns={1}
-            caption="The app provides a set of intelligent alerts that look for patterns in their financial behavior and calls out when there may be an issue."
-            imageAlt="An alert that says 'Duplicate Transactions' with two similar transactions from Walgreens"
-            image={image9}
-          />
-          <AssetCard
-            columns={2}
-            caption="Designed email template to keep our messaging with users on brand and effective."
-            imageAlt="Three emails that display various pieces of information relevant to signing up for an app."
-            image={image10}
-          />
-          <AssetCard
-            columns={2}
-            caption="Built and managed our design component system to insure consistency and easy iteration. Worked closely with engineers & contributed directly to our React Native codebase."
-            imageAlt="A bunch of interface elements that would appear in an app"
-            image={image11}
-          />
-        </Carousel>
-      </ProjectHighlight>
+      <CopyContainer>
+        <ProjectHighlight label="Impact">
+          <List>
+            <List.Item
+              title="Designing for user success"
+              text={
+                <>
+                  <Text>
+                    Redesign of the ARM app has enabled a seamless and tailored
+                    advising experience both for advisors and students.
+                  </Text>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    We streamlined advisor scheduling and workload management.
+                    <ul>
+                      <li>Time on task was decreased by 16%</li>
+                      <li>Overall advisor satisfaction increased by 20%</li>
+                    </ul>
+                  </Text>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    We automated repetitive tasks for advisors and mitigated
+                    risk of making mistakes.
+                    <ul>
+                      <li>Task success rate improved by 12%</li>
+                      <li>Error rate decreased by 34%</li>
+                    </ul>
+                  </Text>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    Finally, design optimizations led to improved transparency
+                    between advising office and students.
+                    <ul>
+                      <li>
+                        Increased students’ confidence in the fact that they
+                        received all the important updates on time
+                      </li>
+                    </ul>
+                  </Text>
+                  <Text
+                    preset="bodySmall"
+                    css={{ color: "$gray300", margin: "16px 0 0 0" }}
+                  >
+                    To comply with my non-disclosure agreement, I have omitted
+                    and obfuscated confidential information in this case study.
+                    All information in this case study is my own.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </ProjectHighlight>
+      </CopyContainer>
+      <CopyContainer>
+        <Content>
+          <Text
+            preset="largeHeading"
+            css={{
+              padding: "$space800 0 $space200 0",
+              maxWidth: "35ch",
+              margin: "0 auto",
+              display: "block",
+            }}
+          >
+            “The biggest benefit for advisors is we got a functional tool that
+            meets their needs and we now have system of record for their
+            interaction with students.”
+          </Text>
+        </Content>
+      </CopyContainer>
+      <CopyContainer>
+        <Box css={{ padding: "$space700 0 $space800 0" }}>
+          <List>
+            <List.Item
+              title="Made an impact across the company"
+              text={
+                <>
+                  <Text>
+                    Our redesign had a huge impact on institutions, as having
+                    advisors who serve more students more effectively helped
+                    them promote student success, make better use of resources,
+                    enhanced their reputation.
+                  </Text>
+
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    Finally, we scaled HighPoint business value by attracting
+                    new institutions that signed up for the updated version of
+                    the app.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </Box>
+      </CopyContainer>
+      {/*<ProjectHighlight*/}
+      {/*  heading={*/}
+      {/*    <>*/}
+      {/*      Designed every experience touchpoint across the service in lock-step*/}
+      {/*      with engineering, business, & growth.*/}
+      {/*    </>*/}
+      {/*  }*/}
+      {/*>*/}
+      {/*  <Carousel>*/}
+      {/*    <TextCard*/}
+      {/*      text="Uncovered user journeys, mapped flows, built wireframes, and constructed prototypes to shape our product."*/}
+      {/*      iconName="TreeStructure"*/}
+      {/*    />*/}
+      {/*    <TextCard*/}
+      {/*      text="Used quantitative & qualitative data from our customers to iterate and ship constant UX improvements."*/}
+      {/*      iconName="ArrowsClockwise"*/}
+      {/*    />*/}
+      {/*    <AssetCard*/}
+      {/*      columns={2}*/}
+      {/*      caption="Designed every screen & state of the Carefull App. An experience that gives children increased insight into the financial life of their parent."*/}
+      {/*      imageAlt="Multiple images of an app experience"*/}
+      {/*      image={image7}*/}
+      {/*    />*/}
+      {/*    <AssetCard*/}
+      {/*      columns={1}*/}
+      {/*      caption="Users receive timely alerts so that they can worry less and insure things are going smoothly."*/}
+      {/*      imageAlt="An iphone lockscreen with an alert that says 'Mom's bill State Famr for $89.87 is due tomorrow. You pay via autopay.'"*/}
+      {/*      image={image8}*/}
+      {/*    />*/}
+      {/*    <AssetCard*/}
+      {/*      columns={1}*/}
+      {/*      caption="The app provides a set of intelligent alerts that look for patterns in their financial behavior and calls out when there may be an issue."*/}
+      {/*      imageAlt="An alert that says 'Duplicate Transactions' with two similar transactions from Walgreens"*/}
+      {/*      image={image9}*/}
+      {/*    />*/}
+      {/*    <AssetCard*/}
+      {/*      columns={2}*/}
+      {/*      caption="Designed email template to keep our messaging with users on brand and effective."*/}
+      {/*      imageAlt="Three emails that display various pieces of information relevant to signing up for an app."*/}
+      {/*      image={image10}*/}
+      {/*    />*/}
+      {/*    <AssetCard*/}
+      {/*      columns={2}*/}
+      {/*      caption="Built and managed our design component system to insure consistency and easy iteration. Worked closely with engineers & contributed directly to our React Native codebase."*/}
+      {/*      imageAlt="A bunch of interface elements that would appear in an app"*/}
+      {/*      image={image11}*/}
+      {/*    />*/}
+      {/*  </Carousel>*/}
+      {/*</ProjectHighlight>*/}
       <PortfolioPresentationCard />
     </Page>
   );
