@@ -1,6 +1,6 @@
 export default {
-  titleTemplate: "%s — Aaron Porter",
-  defaultTitle: "Aaron Porter — Designer & Technologist",
+  titleTemplate: "%s — Anastasiia Naumets",
+  defaultTitle: "Anastasiia Naumets — Designer & Technologist",
   openGraph: {
     type: "website",
     locale: "en_US",

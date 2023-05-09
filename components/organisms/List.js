@@ -6,7 +6,7 @@ import Flex from "components/atoms/Flex";
 
 const List = ({ children }) => (
   <Content>
-    <Grid columns={2} gapSize="large">
+    <Grid columns={1} gapSize="large">
       {children}
     </Grid>
   </Content>
@@ -15,7 +15,7 @@ const List = ({ children }) => (
 List.Item = ({ title, text }) => (
   <Flex direction="column">
     <Text preset="heading">{title}</Text>
-    <Text css={{ color: "$gray300", maxWidth: "45ch" }}>{text}</Text>
+    <Text css={{ color: "$gray000" }}>{text}</Text>
   </Flex>
 );
 

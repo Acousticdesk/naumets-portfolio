@@ -27,7 +27,7 @@ export default function About() {
   return (
     <Page
       title="About Me"
-      description="Aaron Porter is an independent designer & technologist. Previously at Carefull, TTF, & Google."
+      description="Anastasiia Naumets is an independent designer & technologist. Previously at Carefull, TTF, & Google."
     >
       <Landing>
         <Content>
@@ -36,7 +36,7 @@ export default function About() {
               preset="xLargeHeading"
               css={{ maxWidth: "30ch", width: "100%" }}
             >
-              Aaron Porter is a designer & technologist. Previously at{" "}
+              Anastasiia Naumets is a designer & technologist. Previously at{" "}
               <Link href="https://getcarefull.com">Carefull</Link>,{" "}
               <Link href="https://truetoform.design">TTF</Link>, &{" "}
               <Link href="https://google.com">Google</Link>.
