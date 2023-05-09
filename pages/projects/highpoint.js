@@ -620,23 +620,21 @@ export default function Carefull() {
           </List>
         </ProjectHighlight>
       </CopyContainer>
-      <CopyContainer>
-        <Content>
-          <Text
-            preset="largeHeading"
-            css={{
-              padding: "$space800 0 $space200 0",
-              maxWidth: "35ch",
-              margin: "0 auto",
-              display: "block",
-            }}
-          >
-            “The biggest benefit for advisors is we got a functional tool that
-            meets their needs and we now have system of record for their
-            interaction with students.”
-          </Text>
-        </Content>
-      </CopyContainer>
+      <Content>
+        <Text
+          preset="largeHeading"
+          css={{
+            padding: "$space800 0 $space200 0",
+            maxWidth: "35ch",
+            margin: "0 auto",
+            display: "block",
+          }}
+        >
+          “The biggest benefit for advisors is we got a functional tool that
+          meets their needs and we now have system of record for their
+          interaction with students.”
+        </Text>
+      </Content>
       <CopyContainer>
         <Box css={{ padding: "$space700 0 $space800 0" }}>
           <List>
