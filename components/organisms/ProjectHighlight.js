@@ -7,9 +7,11 @@ const ProjectHighlight = ({ children, heading, label = "" }) => (
   <Section>
     <Content>
       <Flex direction="column" css={{ paddingBottom: "$space400" }}>
-        <Text preset="overline" css={{ color: "$accent" }}>
-          {label}
-        </Text>
+        {label && (
+          <Text preset="overline" css={{ color: "$accent" }}>
+            {label}
+          </Text>
+        )}
         {heading && (
           <Text
             preset="largeHeading"

@@ -24,10 +24,13 @@ import image4 from "../../public/projects/highpoint/measurement_plan.jpg";
 import image5 from "../../public/projects/highpoint/inefficient_scheluding.jpg";
 import image6 from "../../public/projects/highpoint/error_prone_env.jpg";
 import image7 from "../../public/projects/highpoint/lack_transparency.jpg";
-import image8 from "../../public/projects/carefull/Carefull_UX_2@2x.png";
-import image9 from "../../public/projects/carefull/Carefull_UX_3@2x.png";
-import image10 from "../../public/projects/carefull/Carefull_UX_4@2x.png";
-import image11 from "../../public/projects/carefull/Carefull_UX_5@2x.png";
+import image8 from "../../public/projects/highpoint/bird_eye_view.jpg";
+import image9 from "../../public/projects/highpoint/inspiration.jpg";
+import image10 from "../../public/projects/highpoint/solution_mode.jpg";
+import image11 from "../../public/projects/highpoint/optimization.jpg";
+import image12 from "../../public/projects/highpoint/optimization_2.jpg";
+import image13 from "../../public/projects/highpoint/optimization_3.jpg";
+import image14 from "../../public/projects/highpoint/optimization_4.jpg";
 
 export default function Carefull() {
   return (
@@ -67,7 +70,7 @@ export default function Carefull() {
                     student information into one place, and providing tools for
                     proactive outreach and collaborative degree planning.
                   </Text>
-                  <Text css={{ margin: "24px 0 0 0" }}>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
                     Within just 4 months we completed a major optimization that
                     led to improvement of main product metrics and increase of
                     overall user satisfaction. As a consequence, we scaled
@@ -90,7 +93,7 @@ export default function Carefull() {
                 <>
                   As Lead Product Designer I drove end-to-end iterative design
                   process including strategy, research, visual design, testing.
-                  <Text css={{ margin: "24px 0 0 0" }}>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
                     Within just 4 months we completed a major optimization that
                     led to improvement of main product metrics and increase of
                     overall user satisfaction. As a consequence, we scaled
@@ -127,7 +130,7 @@ export default function Carefull() {
                     student success with impactful design optimizations and
                     regain competitive advantage on the market.
                   </Text>
-                  <Text css={{ margin: "24px 0 0 0" }}>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
                     We broke it down into smaller and more specific goals using
                     that would ultimately contribute to achieving our long-term
                     aspiration. Hence we aimed to:
@@ -174,7 +177,7 @@ export default function Carefull() {
                     and data-driven approach while solving the problems in a
                     structured and iterative manner.
                   </Text>
-                  <Text css={{ margin: "24px 0 0 0" }}>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
                     In order to provide the team with a simple framework for
                     collaborative problem-solving, I introduced Double Diamond
                     approach that fit perfectly into our context.
@@ -192,7 +195,7 @@ export default function Carefull() {
         imageAlt="Highpoint"
       />
       <CopyContainer>
-        <ProjectHighlight>
+        <Box css={{ padding: "$space800 0" }}>
           <List>
             <List.Item
               text={
@@ -205,7 +208,7 @@ export default function Carefull() {
               }
             />
           </List>
-        </ProjectHighlight>
+        </Box>
       </CopyContainer>
       <AssetCard
         columns={1}
@@ -227,7 +230,7 @@ export default function Carefull() {
                     cross-validate them using existing feedback from the
                     institutions.
                   </Text>
-                  <Text css={{ margin: "24px 0 0 0" }}>
+                  <Text css={{ margin: "$space300 0 0 0" }}>
                     Data that I synthesized confirmed our initial hypotheses and
                     revealed additional concerns:
                   </Text>
@@ -252,7 +255,7 @@ export default function Carefull() {
           text={
             <>
               <Text>Inefficient scheduling</Text>
-              <Text css={{ margin: "24px 0 0 0" }}>
+              <Text css={{ margin: "$space300 0 0 0" }}>
                 Advisors cannot set up custom appointment hours and lack
                 awareness about workload for the week
               </Text>
@@ -261,7 +264,7 @@ export default function Carefull() {
         />
       </Content>
       <Content>
-        <Box css={{ padding: "80px 0 0 0" }}>
+        <Box css={{ padding: "$space800 0 0 0" }}>
           <ImageHighlight
             img={
               <Image
@@ -276,7 +279,7 @@ export default function Carefull() {
             text={
               <>
                 <Text>Error-prone environment</Text>
-                <Text css={{ margin: "24px 0 0 0" }}>
+                <Text css={{ margin: "$space300 0 0 0" }}>
                   Advisors spend too much time on adding appointment summaries
                   often by retyping similar copy.
                 </Text>
@@ -286,7 +289,7 @@ export default function Carefull() {
         </Box>
       </Content>
       <Content>
-        <Box css={{ padding: "80px 0 0 0" }}>
+        <Box css={{ padding: "$space800 0 0 0" }}>
           <ImageHighlight
             img={
               <Image
@@ -301,7 +304,7 @@ export default function Carefull() {
             text={
               <>
                 <Text>Lack of transparency </Text>
-                <Text css={{ margin: "24px 0 0 0" }}>
+                <Text css={{ margin: "$space300 0 0 0" }}>
                   Students risk missing critical updates that define their
                   academic success.
                 </Text>
@@ -310,16 +313,196 @@ export default function Carefull() {
           />
         </Box>
       </Content>
-      <ProjectHighlight
-        heading={
-          <>
-            In the meantime, it was important to define success criteria, so I
-            investigated essential product metrics. I had several sessions with
-            our data analyst until we managed to outline a comprehensive
-            measurement plan.
-          </>
-        }
-      >
+      <Content>
+        <Text
+          preset="largeHeading"
+          css={{
+            padding: "$space800 0 $space200 0",
+            maxWidth: "35ch",
+            margin: "0 auto",
+            display: "block",
+          }}
+        >
+          "We need a bird’s eye view on current scope"
+        </Text>
+      </Content>
+      <CopyContainer>
+        <Box css={{ padding: "$space700 0 $space800 0" }}>
+          <List>
+            <List.Item
+              text={
+                <>
+                  <Text>
+                    My next step was to provide a broader perspective on "as is"
+                    state of our app and, by working closely with tech team, to
+                    define feasibility and scope of future changes.
+                  </Text>
+
+                  <Text css={{ margin: "$space300 0 0 0" }}>
+                    Therefore I fleshed out an information architecture with the
+                    main roles, actions and properties, that created a shared
+                    understanding and unlocked the team to evaluate the problems
+                    on a deeper level. Thus we quickly defined the most impacted
+                    area.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </Box>
+      </CopyContainer>
+      <AssetCard columns={1} image={image8} imageAlt="Highpoint" />
+      <CopyContainer>
+        <ProjectHighlight label="Definition">
+          <List>
+            <List.Item
+              title="Inspiration and converging"
+              text={
+                <>
+                  <Text>
+                    Competitor analysis revealed common practices, like
+                    bulk-messaging, student progress tracker, real-time updates,
+                    approval workflows, etc. Discussing these features with the
+                    team helped me to bring new perspective to the table and
+                    provide a more nuanced understanding of our problem space.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </ProjectHighlight>
+      </CopyContainer>
+      <AssetCard
+        columns={1}
+        image={image9}
+        imageAlt="Highpoint"
+        caption="We examined the functionality of our 3 main competitors and identified gaps and opportunities for our product."
+      />
+      <CopyContainer>
+        <Content>
+          <Text
+            preset="largeHeading"
+            css={{
+              padding: "$space800 0 $space200 0",
+              maxWidth: "35ch",
+              margin: "0 auto",
+              display: "block",
+            }}
+          >
+            "Solution mode" on
+          </Text>
+        </Content>
+        <Box css={{ padding: "$space300 0" }}>
+          <List>
+            <List.Item
+              text={
+                <>
+                  <Text>
+                    We got into the solution mode by evaluating ways to solve
+                    the core issues. I started to sketch ideas and create
+                    prototypes. As we needed to converge on our vision with the
+                    team, I took initiative and facilitated co-design sessions
+                    to get their feedback, check new concepts for feasibility
+                    and analyze impact...
+                  </Text>
+                </>
+              }
+            />
+            <List.Item
+              text={
+                <>
+                  <Text>
+                    ... 5 iterations later we were able to achieve agreement on
+                    what we’re building.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </Box>
+      </CopyContainer>
+      <AssetCard
+        columns={1}
+        image={image10}
+        imageAlt="Highpoint"
+        caption="As I built prototypes using design library, the team used components from the library as a lego blocks during co-design sessions."
+      />
+      <CopyContainer>
+        <Content>
+          <Text
+            preset="largeHeading"
+            css={{
+              padding: "$space800 0 $space200 0",
+              maxWidth: "35ch",
+              margin: "0 auto",
+              display: "block",
+            }}
+          >
+            Optimizing for better user experience
+          </Text>
+        </Content>
+        <Box css={{ padding: "$space300 0" }}>
+          <List>
+            <List.Item
+              text={
+                <>
+                  <Text>
+                    Thanks to team collaboration and a human-centered approach,
+                    we managed to improve advisor productivity, enhance the
+                    student communication experience, and ensure visibility of
+                    students' progress.
+                  </Text>
+                </>
+              }
+            />
+            <List.Item
+              text={
+                <>
+                  <Text>
+                    Based on research insights, I proposed 2 key feature ideas -
+                    Custom Appointment Hours and Appointment Mode to bring
+                    flexibility and efficiency into advisor’s schedule setup.
+                  </Text>
+                </>
+              }
+            />
+          </List>
+        </Box>
+      </CopyContainer>
+      <Box css={{ margin: "$space800 0" }}>
+        <AssetCard
+          columns={1}
+          image={image11}
+          imageAlt="Highpoint"
+          caption="We removed friction from appointment scheduling process by allowing to set up custom hours."
+        />
+      </Box>
+      <Box css={{ margin: "$space800 0" }}>
+        <AssetCard
+          columns={1}
+          image={image12}
+          imageAlt="Highpoint"
+          caption="We added a calendar view to bring awareness about advisor’s workload."
+        />
+      </Box>
+      <Box css={{ margin: "$space800 0" }}>
+        <AssetCard
+          columns={1}
+          image={image13}
+          imageAlt="Highpoint"
+          caption="Simplified and streamlined appointment summaries by introducing templates and configurable lists into advisors' workflow."
+        />
+      </Box>
+      <Box css={{ margin: "$space800 0" }}>
+        <AssetCard
+          columns={1}
+          image={image14}
+          imageAlt="Highpoint"
+          caption="Designed smart alert system to make sure students and staff are constantly updated about changes and have easy access to important information."
+        />
+      </Box>
+      {/* unique content ends here */}
+      <ProjectHighlight>
         <Carousel>
           <TextCard
             text="Conducted 1:1 qualitative research sessions with financial caregivers to create a ground truth by which to guide product decisions."
