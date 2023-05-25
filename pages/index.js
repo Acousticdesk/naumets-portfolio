@@ -26,7 +26,8 @@ export default function Home() {
         <Content>
           <Box>
             <Text preset="xLargeHeading" css={{ maxWidth: "28ch" }}>
-              Anastasiia Naumets designs products & systems to empower human agency.
+              Anastasiia Naumets designs products & systems to empower human
+              agency.
             </Text>
           </Box>
         </Content>
@@ -58,20 +59,20 @@ export default function Home() {
             />
             <Flex direction="column" jus gap>
               <FeaturedProjectCard
-                title="Wayfair"
-                dates="2018-2019"
-                role="UX Consultant"
-                link="/projects/wayfair"
-                image={
-                  <Image
-                    src="/projects/wayfair/wayfair_logo@2x.png"
-                    alt="Logo for Wayfair"
-                    width={48}
-                    height={48}
-                    layout="intrinsic"
-                    priority
-                  />
-                }
+                title="HUNKEMöLLER"
+                dates="2021-2022"
+                role="UX Designer"
+                link="/projects/hkm"
+                // image={
+                //   <Image
+                //     src="/projects/wayfair/wayfair_logo@2x.png"
+                //     alt="Logo for Wayfair"
+                //     width={48}
+                //     height={48}
+                //     layout="intrinsic"
+                //     priority
+                //   />
+                // }
               />
               <FeaturedProjectCard
                 title="YouTube"
