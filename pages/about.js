@@ -10,9 +10,7 @@ import Box from "components/atoms/Box";
 import LinkTo from "components/utilities/LinkTo";
 import { styled } from "stitches.config";
 import Landing from "components/molecules/Landing";
-import Grid from "components/atoms/Grid";
 import AssetCard from "components/molecules/AssetCard";
-import CopyToClipboardButton from "components/molecules/CopyToClipboardButton";
 
 const LinkText = styled("span", {
   color: "$accent",
@@ -79,26 +77,26 @@ export default function About() {
           <Section>
             <Flex gap align="start">
               <Flex direction="column" gap>
-                <Box>
+                <AssetCard>
                   <Image src="/images/about_2.jpg" width={552} height={736} />
-                </Box>
-                <Box>
+                </AssetCard>
+                <AssetCard>
                   <Image src="/images/about_4.jpg" width={552} height={736} />
-                </Box>
-                <Box>
+                </AssetCard>
+                <AssetCard>
                   <Image src="/images/about_6.jpg" width={552} height={736} />
-                </Box>
+                </AssetCard>
               </Flex>
               <Flex direction="column" gap>
-                <Box>
+                <AssetCard>
                   <Image src="/images/about_3.jpg" width={552} height={736} />
-                </Box>
-                <Box>
+                </AssetCard>
+                <AssetCard>
                   <Image src="/images/about_5.jpg" width={552} height={736} />
-                </Box>
-                <Box>
+                </AssetCard>
+                <AssetCard>
                   <Image src="/images/about_7.jpg" width={552} height={736} />
-                </Box>
+                </AssetCard>
               </Flex>
             </Flex>
           </Section>

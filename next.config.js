@@ -5,27 +5,6 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   async redirects() {
-    return [
-      {
-        source: "/project/beach",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/project/thrive",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/project/strictly",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/work",
-        destination: "/",
-        permanent: true,
-      },
-    ];
+    return [];
   },
 };
