@@ -24,11 +24,11 @@ import image5 from "../../public/projects/nokas/5.jpg";
 import image6 from "../../public/projects/nokas/6.jpg";
 import image7 from "../../public/projects/nokas/7.jpg";
 
-export default function Carefull() {
+export default function Nokas() {
   return (
     <Page
-      title="HUNKEMöLLER"
-      description="Optimized advising with efficient student management, streamlined communication, and quick scheduling."
+      title="Nokas"
+      description="We started with an opportunity and produced an automation solution for a complex organization."
     >
       <ProjectIntro
         client="Nokas"
