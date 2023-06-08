@@ -14,8 +14,8 @@ export const contentStyles = {
   },
 };
 
-export const Content = ({ children }) => {
-  return <Box css={{ ...contentStyles }}>{children}</Box>;
+export const Content = ({ children, css }) => {
+  return <Box css={{ ...contentStyles, ...css }}>{children}</Box>;
 };
 
 export default Content;

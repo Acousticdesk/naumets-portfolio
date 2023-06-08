@@ -311,7 +311,7 @@ export default function Carefull() {
         </ProjectHighlight>
       </CopyContainer>
       <CopyContainer>
-        <ProjectHighlight label="final designs">
+        <ProjectHighlight css={{ paddingTop: 0 }} label="final designs">
           <List>
             <List.Item
               title="Optimized checkout for better conversions"
@@ -352,7 +352,7 @@ export default function Carefull() {
         </ProjectHighlight>
       </CopyContainer>
       <CopyContainer>
-        <ProjectHighlight label="What I Learned">
+        <ProjectHighlight css={{ paddingTop: 0 }} label="What I Learned">
           <List>
             <List.Item
               title="Balancing short-term and long-term goals"
@@ -382,7 +382,7 @@ export default function Carefull() {
         </ProjectHighlight>
       </CopyContainer>
       <CopyContainer>
-        <ProjectHighlight label="over the years">
+        <ProjectHighlight css={{ padding: 0 }} label="over the years">
           <List>
             <List.Item
               title="My contributions "

@@ -380,12 +380,12 @@ export default function Carefull() {
         imageAlt="Highpoint"
         caption="We examined the functionality of our 3 main competitors and identified gaps and opportunities for our product."
       />
-      <CopyContainer>
+      <CopyContainer css={{ padding: "$space800 0" }}>
         <Content>
           <Text
             preset="largeHeading"
             css={{
-              padding: "$space800 0 $space200 0",
+              padding: "$space300 0 $space200 0",
               maxWidth: "35ch",
               margin: "0 auto",
               display: "block",
@@ -495,7 +495,7 @@ export default function Carefull() {
           caption="Simplified and streamlined appointment summaries by introducing templates and configurable lists into advisors' workflow."
         />
       </Box>
-      <Box css={{ margin: "$space800 0" }}>
+      <Box css={{ margin: "$space800 0 0" }}>
         <AssetCard
           columns={1}
           image={image14}
@@ -504,7 +504,7 @@ export default function Carefull() {
         />
       </Box>
       <CopyContainer>
-        <ProjectHighlight label="testing">
+        <ProjectHighlight css={{ paddingBottom: 0 }} label="testing">
           <List>
             <List.Item
               title="De-risking new flow"
@@ -526,34 +526,6 @@ export default function Carefull() {
           </List>
         </ProjectHighlight>
       </CopyContainer>
-      {/*<ProjectHighlight>*/}
-      {/*  <Carousel>*/}
-      {/*    <TextCard*/}
-      {/*      text="Conducted 1:1 qualitative research sessions with financial caregivers to create a ground truth by which to guide product decisions."*/}
-      {/*      iconName="Chat"*/}
-      {/*    />*/}
-      {/*    <TextCard*/}
-      {/*      text="Aided our head of growth in the formulation of quantitative studies to better understand our market and larger customer trends."*/}
-      {/*      iconName="PieChart"*/}
-      {/*    />*/}
-      {/*    <TextCard*/}
-      {/*      text="Built foundational artifacts to give our team insight into the experiences, responsibilities, and needs of our customers."*/}
-      {/*      iconName="Notebook"*/}
-      {/*    />*/}
-      {/*    <TextCard*/}
-      {/*      text="Conducted synchronous & asynchronous usability tests on our interface touchpoints."*/}
-      {/*      iconName="CircleWavyCheck"*/}
-      {/*    />*/}
-      {/*    <TextCard*/}
-      {/*      text="Met with users to understand how our product fit into their life & guide iterations of our offering."*/}
-      {/*      iconName="Smiley"*/}
-      {/*    />*/}
-      {/*    <TextCard*/}
-      {/*      text="Ran workshops with our founding team to shape our company & product thinking."*/}
-      {/*      iconName="StickyNote"*/}
-      {/*    />*/}
-      {/*  </Carousel>*/}
-      {/*</ProjectHighlight>*/}
       <ProjectHighlight>
         <Carousel>
           <AssetCard columns={1} image={image15} imageAlt="Highpoint" />
@@ -571,7 +543,7 @@ export default function Carefull() {
         </Carousel>
       </ProjectHighlight>
       <CopyContainer>
-        <ProjectHighlight label="Impact">
+        <ProjectHighlight css={{ padding: 0 }} label="Impact">
           <List>
             <List.Item
               title="Designing for user success"
@@ -636,7 +608,7 @@ export default function Carefull() {
         </Text>
       </Content>
       <CopyContainer>
-        <Box css={{ padding: "$space700 0 $space800 0" }}>
+        <Box css={{ padding: "$space700 0 0" }}>
           <List>
             <List.Item
               title="Made an impact across the company"

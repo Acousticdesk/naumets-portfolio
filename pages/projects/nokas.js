@@ -218,7 +218,7 @@ export default function Nokas() {
       </CopyContainer>
       <AssetCard columns={1} image={image7} imageAlt="Nokas" />
       <CopyContainer>
-        <ProjectHighlight label="Results">
+        <ProjectHighlight css={{ paddingBottom: 0 }} label="Results">
           <List>
             <List.Item
               title="Making impact on entire organization "
