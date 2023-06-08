@@ -14,7 +14,7 @@ const List = ({ children }) => (
 
 List.Item = ({ title, text }) => (
   <Flex direction="column">
-    <Text preset="heading">{title}</Text>
+    {title && <Text preset="heading">{title}</Text>}
     <Text css={{ color: "$gray000" }}>{text}</Text>
   </Flex>
 );

@@ -79,7 +79,7 @@ export default function Nokas() {
             />
           </List>
         </ProjectHighlight>
-        <ProjectHighlight>
+        <ProjectHighlight css={{ paddingTop: 0 }}>
           <List>
             <List.Item
               title="My Role"

@@ -238,7 +238,7 @@ export default function Carefull() {
         </ProjectHighlight>
       </CopyContainer>
       <CopyContainer>
-        <ProjectHighlight label="a/b testing">
+        <ProjectHighlight label="a/b testing" css={{ paddingTop: 0 }}>
           <List>
             <List.Item
               title="Prompting user to log in - iteration 1"
