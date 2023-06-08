@@ -75,20 +75,10 @@ export default function Home() {
                 // }
               />
               <FeaturedProjectCard
-                title="YouTube"
-                dates="2016-2018"
+                title="Nokas"
+                dates="2019"
                 role="UX Designer"
-                link="/projects/youtube"
-                image={
-                  <Image
-                    src="/projects/youtube/youtube_logo@2x.png"
-                    alt="Logo for YouTube"
-                    width={69}
-                    height={48}
-                    layout="intrinsic"
-                    priority
-                  />
-                }
+                link="/projects/nokas"
               />
             </Flex>
           </Grid>
