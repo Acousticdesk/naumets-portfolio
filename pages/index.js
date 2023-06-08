@@ -4,20 +4,12 @@ import Content from "components/atoms/Content";
 import Section from "components/atoms/Section";
 import Text from "components/atoms/Text";
 import Image from "next/image";
-// import Card from "components/atoms/Card";
-// import Icon from "components/atoms/Icon";
 import FeaturedProjectCard from "components/molecules/FeaturedProjectCard";
-import ProjectCard from "components/molecules/ProjectCard";
 import Page from "components/templates/Page";
 import Grid from "components/atoms/Grid";
 import Landing from "components/molecules/Landing";
 
 import image1 from "../public/projects/highpoint/highpoint_preview.jpg";
-// import image2 from "../public/projects/stories/stories_thumbnail@2x.png";
-import image3 from "../public/projects/2016-portfolio/portfolio_thumbnail.jpg";
-import image4 from "../public/projects/2001-space/2001_thumbnail.png";
-import image5 from "../public/projects/beach/beach_thumbnail.jpg";
-// import image6 from "../public/projects/brandsupplies/BrandSupplies@2x.png";
 
 export default function Home() {
   return (

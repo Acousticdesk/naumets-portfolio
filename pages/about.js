@@ -10,9 +10,14 @@ import Box from "components/atoms/Box";
 import LinkTo from "components/utilities/LinkTo";
 import { styled } from "stitches.config";
 import Landing from "components/molecules/Landing";
-import Grid from "components/atoms/Grid";
 import AssetCard from "components/molecules/AssetCard";
-import CopyToClipboardButton from "components/molecules/CopyToClipboardButton";
+
+import image2 from "../public/images/about_2.jpg";
+import image3 from "../public/images/about_3.jpg";
+import image4 from "../public/images/about_4.jpg";
+import image5 from "../public/images/about_5.jpg";
+import image6 from "../public/images/about_6.jpg";
+import image7 from "../public/images/about_7.jpg";
 
 const LinkText = styled("span", {
   color: "$accent",
@@ -79,26 +84,14 @@ export default function About() {
           <Section>
             <Flex gap align="start">
               <Flex direction="column" gap>
-                <Box>
-                  <Image src="/images/about_2.jpg" width={552} height={736} />
-                </Box>
-                <Box>
-                  <Image src="/images/about_4.jpg" width={552} height={736} />
-                </Box>
-                <Box>
-                  <Image src="/images/about_6.jpg" width={552} height={736} />
-                </Box>
+                <AssetCard image={image2} />
+                <AssetCard image={image4} />
+                <AssetCard image={image6} />
               </Flex>
               <Flex direction="column" gap>
-                <Box>
-                  <Image src="/images/about_3.jpg" width={552} height={736} />
-                </Box>
-                <Box>
-                  <Image src="/images/about_5.jpg" width={552} height={736} />
-                </Box>
-                <Box>
-                  <Image src="/images/about_7.jpg" width={552} height={736} />
-                </Box>
+                <AssetCard image={image3} />
+                <AssetCard image={image5} />
+                <AssetCard image={image7} />
               </Flex>
             </Flex>
           </Section>

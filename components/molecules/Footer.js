@@ -31,15 +31,15 @@ export const Footer = () => (
             LinkedIn
           </Button>
         </Box>
-        <Flex align="center" justify="end">
-          <Button
-            variant="ghost"
-            iconName="Github"
-            href="https://github.com/Aaron-Porter/ap-portfolio"
-          >
-            This website is open source
-          </Button>
-        </Flex>
+        {/*<Flex align="center" justify="end">*/}
+        {/*  <Button*/}
+        {/*    variant="ghost"*/}
+        {/*    iconName="Github"*/}
+        {/*    href="https://github.com/Aaron-Porter/ap-portfolio"*/}
+        {/*  >*/}
+        {/*    This website is open source*/}
+        {/*  </Button>*/}
+        {/*</Flex>*/}
       </Flex>
     </Content>
   </Box>
